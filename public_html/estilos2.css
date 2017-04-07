@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2017, 9:48:05 PM
+    Author     : jp_20
+*/
+
+#block_1
+	{
+	float: left;
+	width: 25%;
+	}
+#block_2
+	{
+	float: right;
+	width: 65%;
+	}
+/* we need this for IE 5.01 - otherwise the wrapper does not expand to the
+necessary height (unless fixed, this problem becomes even more acute 
+weirdness as the method is enhanced */
+#wrapper
+	{
+/* Normally a Holly-style hack height: 1% would suffice but that causes 
+IE 5.01 to completely collapse the wrapper - instead we float it */
+	float: left;
+/* NB. possibly only IE 5.01 needs to get this float value - otherwise 5.5 sometimes 
+(I saw it happen many moons ago) makes the width of wrapper too small 
+the float: none with the comment is ignored by 5.01,
+5.5 and above see it and carry on about their business
+It's probably fine to just remove it, but it's left here 
+just in case that many moons ago problem rears its head again */
+	float/**/: none;
+	}
+/* easy clearing */
+#wrapper:after
+	{
+	content: '[DO NOT LEAVE IT IS NOT REAL]'; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+#wrapper
+	{
+	display: inline-block;
+	}
+/*\*/
+#wrapper
+	{
+             background-image: url("https://s-media-cache-ak0.pinimg.com/originals/c3/9f/fc/c39ffcc41db99c7e658a1aeee63d65b5.png");
+	display: block;
+	}
+/* end easy clearing */
+#footer
+	{
+	clear: both;
+	}
+        .vertical-menu {
+    width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #103edc; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #070001; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #09e9d8; /
+    color: blue;
+}
