@@ -13,7 +13,7 @@ and open the template in the editor.
 
 ul li 
 {
-            background-image: url("http://www.cuded.com/wp-content/uploads/2014/04/32-Purple-Background.png");
+            background-image: url("https://www.gratistodo.com/contenido/fondos/windows/img36.jpg");
     list-style-type: none;
     display: inline;
     font-size: 28px;
@@ -24,7 +24,7 @@ ul li
     #menu
     {
         text-align: center;
-        color: white;
+        color: blue;
     }
     #cuerpo
     {
@@ -110,7 +110,7 @@ ul li
         vertical-align: top;
     }
     #fondo{
-     background-image: url("https://s-media-cache-ak0.pinimg.com/originals/c3/9f/fc/c39ffcc41db99c7e658a1aeee63d65b5.png");
+     background-image: url("http://www.escobarimpresores.com/web/recursos/imagenes/web-FONDOS-turquesa.png");
     }
     
     lol

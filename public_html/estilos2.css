@@ -50,7 +50,7 @@ just in case that many moons ago problem rears its head again */
 /*\*/
 #wrapper
 	{
-             background-image: url("https://s-media-cache-ak0.pinimg.com/originals/c3/9f/fc/c39ffcc41db99c7e658a1aeee63d65b5.png");
+             background-image: url("http://www.iac.es/astroparatodos/astro1/uploads/tx_avanticiacapt/cometas-12-1280x800.jpg");
 	display: block;
 	}
 /* end easy clearing */
@@ -76,5 +76,5 @@ just in case that many moons ago problem rears its head again */
 
 .vertical-menu a.active {
     background-color: #09e9d8; /
-    color: blue;
+    color: red;
 }
